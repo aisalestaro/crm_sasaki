@@ -29,7 +29,7 @@ def find_action(name):
 
 def main():
     while True:
-        select = select_action()
+        select = input("Your command > ")
 
         if select == "S":
             show_action()
